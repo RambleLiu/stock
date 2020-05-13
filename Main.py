@@ -112,6 +112,6 @@ print('总盈利情况', round(total, 2), '%')
 result = pd.DataFrame(data_list, columns=rs.fields)
 
 # 结果集输出到csv文件 #
-result.to_csv("C:\\AppData\stockData\601012.csv", index=False)
+# result.to_csv("C:\\AppData\stockData\601012.csv", index=False)
 # 登出系统 #
 bs.logout()
